@@ -1,4 +1,4 @@
-module github.com/simplesteph/grpc-go-course/greet
+module greet
 
 go 1.20
 
