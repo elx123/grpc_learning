@@ -13,3 +13,8 @@ plugins:
     opt:
       - paths=source_relative
       - generate_unbound_methods=true
+  - plugin: openapiv2
+    out: .
+    opt: 
+      - json_names_for_fields=false
+      - logtostderr=true
